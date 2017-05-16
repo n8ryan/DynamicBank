@@ -15,7 +15,7 @@
 	<!-- registered users --> 
 	<h2 class="center">Current Customers Sign In</h2>
 	
-	<form class="container" action="RegistrationServlet" method="get">
+	<form class="container" action="SigninServlet" method="get">
 	
 	  <div class="form-group">
 		<label for="userName">User Name</label>

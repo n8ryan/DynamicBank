@@ -33,7 +33,7 @@ Customer customer = (Customer) session.getAttribute("customer");
 	<div class="jumbotron">
 		<div class="container">
 			<h1>Hello, <% out.print(customer.getFirstName()); %></h1>
-			<p>You are signed in.</p>
+			<p>You are signed in as <% out.print(customer.getFirstName()+" "+customer.getLastName());%></p>
 		</div>
 	</div></body>
 </html>
